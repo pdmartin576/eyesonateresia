@@ -13,6 +13,17 @@ h1 {
     text-align: center;
 }
 
+p {
+    font-size: 1.1em;
+    margin: 1em;
+}
+
+ol {
+    list-style-type: upper-roman;
+    margin-left: 35px;
+    padding: 1em;
+}
+
 main {
     flex-grow: 1;
     padding: 0.5em;
@@ -119,4 +130,19 @@ footer {
 .to-top {
     text-align: right;
     color: #f2effa;
+}
+
+@media (max-width: 40rem) {
+    .list-container {
+        max-width: 100%;
+        left: 0;
+        right: 0;
+    }
+    .modal {
+        left: 0;
+        right: 0;
+        top: 0;
+        transform: translate(0, 0);
+        width: 100%;
+    }
 }
