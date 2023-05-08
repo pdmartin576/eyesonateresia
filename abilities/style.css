@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 * {margin: 0; padding: 0; box-sizing: border-box;}
 html {scroll-behavior: smooth;}
 
@@ -6,6 +7,7 @@ body {
     color: #f2effa;
     display: flex;
     flex-direction: column;
+    font-family: Oswald, sans-serif;
 }
 
 h1 {
@@ -20,7 +22,6 @@ p {
 
 ol {
     list-style-type: upper-roman;
-    margin-left: 35px;
     padding: 1em;
 }
 
@@ -52,6 +53,7 @@ h2 {
 li {
     list-style-type: none;
     line-height: 1.5;
+    padding: 0.5em;
 }
 
 .item {
