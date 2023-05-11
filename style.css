@@ -65,9 +65,9 @@ footer {
     position: fixed;
     background-color: #606C38;
     left: 0;
-    top: 0;
+    /* top: 0; */
     right: 0;
-    bottom: 75%;
+    bottom: 0;
     flex-direction: column;
     justify-content: space-between;
     gap: 0;
