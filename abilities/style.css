@@ -23,6 +23,7 @@ p {
 ol {
     list-style-type: upper-roman;
     padding: 1em;
+    /* I've been trying to get the numbers to show, but neither the margin nor padding settings can fix it */
 }
 
 main {
