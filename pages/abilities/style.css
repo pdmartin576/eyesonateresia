@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
 * {margin: 0; padding: 0; box-sizing: border-box;}
 html {scroll-behavior: smooth;}
 
 body {
-    background-color: #111111;
-    color: #f2effa;
+    background-color: #283618;
+    font-family: 'Castoro', serif;
+    color: #FEFAE0;
     display: flex;
     flex-direction: column;
-    font-family: Oswald, sans-serif;
 }
 
 h1 {
@@ -38,7 +38,7 @@ main {
 }
 
 .abilities-list, .weakness-list {
-    border: 2px solid #f2effa;
+    border: 2px solid #FEFAE0;
     flex-flow: row wrap;
 }
 
@@ -59,13 +59,13 @@ li {
 
 .item {
     font-size: 1.5rem;
-    color: #00ff7f;
+    color: #BC6C25;
     /* display: block; */
     padding-top: .5em;
     /* width: fit-content; */
 }
 .item:hover {
-    color: #7cc6fe;
+    color: #DDA15E;
     cursor: pointer;
 }
 
@@ -89,7 +89,7 @@ li {
 
 .flex-wrapper {
     aspect-ratio: 3/2;
-    background-color: #7cc6fe;
+    background-color: #BC9EC1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -113,9 +113,12 @@ li {
 
 .close-button:hover {
     cursor: pointer;
-    color: #fc7753;
+    color: #990D35;
 }
 
+hr {
+    margin-bottom: 4em;
+}
 footer {
     position: fixed;
     right: 0;
@@ -124,15 +127,15 @@ footer {
     display: flex;
     justify-content: space-between;
     font-size: 1.5em;
-    background-color: #9400d3;
+    background-color: #A09CB0;
     padding: 0.25em;
 }
 .to-home {
-    color: #f2effa;
+    color: #FEFAE0;
 }
 .to-top {
     text-align: right;
-    color: #f2effa;
+    color: #FEFAE0;
 }
 
 @media (max-width: 40rem) {

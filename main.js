@@ -3,17 +3,24 @@ $('#menu-toggle').click(function(){
     $('#menu').slideToggle(300);
   })
   
-  $(window).resize(function(){
-    
-    console.log(window.innerWidth)
-    
-    if(window.innerWidth < 660) {
+  $(document).ready(function() {
+    // Check window width on page load
+    if (window.innerWidth < 660) {
       $("#menu").hide();
     } else {
       $("#menu").show();
     }
-  })
-
+  
+    // Check window width on window resize
+    $(window).resize(function() {
+      if (window.innerWidth < 660) {
+        $("#menu").hide();
+      } else {
+        $("#menu").show();
+      }
+    });
+  });
+  
   const search = [
     { name: 'abilities', anchorLink: 'abilities/index.html', secret: false},
     { name: 'pantheon', anchorLink: '#', secret: false},

@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <title>Character Information</title>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Character Information</h1>
+        <p>Characters start out with 5 free levels, and a maximum ability total of 22. If your character has 22 levels in abilities, then they must have a minimum of 17 levels in weaknesses. Characters must have a cover identity, on top of their niche for criminal work. Here are some driving questions for this cover identity:</p>
+        <ol>
+            <li>How close is this identity to who you were growing up? Are you someone entirely different or is it the same person you've always been?</li>
+            <li>Does this identity have any relationships? Parents, children, lovers, coworkers?</li>
+        </ol>
+        <p>Lastly, the War of Borders ended 9 years ago, meaning that everyone older than that has a story of how it affected them. Were you a soldier in the war? Were you forced to look after your siblings when your parents were spending their time away from home for war? Did you have a child that fought in the war?</p>
+    </header>
+    <main>
+        <div class="list-container">
+            <div class="abilities-list">
+                <h2>Abilities</h2>
+                <ul>
+                <li><a class="item">Agile</a></li>
+                <li><a class="item">Armoured</a></li>
+                <li><a class="item">Art-of-Invisibility</a></li>
+                <li><a class="item">Attack</a></li>
+                <li><a class="item">Beautiful</a></li>
+                <li><a class="item">Charismatic</a></li>
+                <li><a class="item">Combat-Expert</a></li>
+                <li><a class="item">Companion</a></li>
+                <li><a class="item">Connected</a></li>
+                <li><a class="item">Cute</a></li>
+                <li><a class="item">Dexterous</a></li>
+                <li><a class="item">Endurance-Reserve</a></li>
+                <li><a class="item">Evasive</a></li>
+                <li><a class="item">Famous</a></li>
+                <li><a class="item">Gear</a></li>
+                <li><a class="item">Healer</a></li>
+                <li><a class="item">Heightened-Sense</a></li>
+                <li><a class="item">Intimidating</a></li>
+                <li><a class="item">Intuitive</a></li>
+                <li><a class="item">Inventor</a></li>
+                <li><a class="item">Iron-Willed</a></li>
+                <li><a class="item">Knowledge</a></li>
+                <li><a class="item">Linguist</a></li>
+                <li><a class="item">Lucky</a></li>
+                <li><a class="item">Minions</a></li>
+                <li><a class="item">Passion</a></li>
+                <li><a class="item">Perceptive</a></li>
+                <li><a class="item">Performer</a></li>
+                <li><a class="item">Pilot</a></li>
+                <li><a class="item">Position-of-Power</a></li>
+                <li><a class="item">Quick</a></li>
+                <li><a class="item">Resistance</a></li>
+                <li><a class="item">Smart</a></li>
+                <li><a class="item">Strong</a></li>
+                <li><a class="item">Tough</a></li>
+                <li><a class="item">Vigorous</a></li>
+                <li><a class="item">Walking-Arsenal</a></li>
+                <li><a class="item">Wealthy</a></li>
+            </ul>
+            </div>
+            <div class="weakness-list">
+                <h2>Weakenesses</h2>
+                <ul>
+                <li><a class="item">Absent-Minded</a></li>
+                <li><a class="item">Ageism</a></li>
+                <li><a class="item">Airhead</a></li>
+                <li><a class="item">Amnesia</a></li>
+                <li><a class="item">Arrogant</a></li>
+                <li><a class="item">Awkward-Size</a></li>
+                <li><a class="item">Bizarre-Appearance</a></li>
+                <li><a class="item">Clumsy</a></li>
+                <li><a class="item">Code-of-Conduct</a></li>
+                <li><a class="item">Compulsion</a></li>
+                <li><a class="item">Coward</a></li>
+                <li><a class="item">Crybaby</a></li>
+                <li><a class="item">Dense</a></li>
+                <li><a class="item">Dependency</a></li>
+                <li><a class="item">Dull</a></li>
+                <li><a class="item">Easily-Distracted</a></li>
+                <li><a class="item">Emotionless</a></li>
+                <li><a class="item">Endurance-Use</a></li>
+                <li><a class="item">Fear</a></li>
+                <li><a class="item">Focus</a></li>
+                <li><a class="item">Frail</a></li>
+                <li><a class="item">Greedy</a></li>
+                <li><a class="item">Guardian</a></li>
+                <li><a class="item">Hatred</a></li>
+                <li><a class="item">Impaired-Sense</a></li>
+                <li><a class="item">Impulsive</a></li>
+                <li><a class="item">Ineptitude</a></li>
+                <li><a class="item">Infamous</a></li>
+                <li><a class="item">Jittery</a></li>
+                <li><a class="item">Kind-Hearted</a></li>
+                <li><a class="item">Languid</a></li>
+                <li><a class="item">Lecherous</a></li>
+                <li><a class="item">Limited-Uses</a></li>
+                <li><a class="item">Loner</a></li>
+                <li><a class="item">Love-Interest</a></li>
+                <li><a class="item">Love-Magnet</a></li>
+                <li><a class="item">Mute</a></li>
+                <li><a class="item">Naive</a></li>
+                <li><a class="item">Nosebleeder</a></li>
+                <li><a class="item">Oblivious</a></li>
+                <li><a class="item">Obsession</a></li>
+                <li><a class="item">Outcast</a></li>
+                <li><a class="item">Overconfident</a></li>
+                <li><a class="item">Pacifist</a></li>
+                <li><a class="item">Poor</a></li>
+                <li><a class="item">Quirk</a></li>
+                <li><a class="item">Restricted-Freedom</a></li>
+                <li><a class="item">Rival</a></li>
+                <li><a class="item">Rude</a></li>
+                <li><a class="item">Secret</a></li>
+                <li><a class="item">Sensitivity</a></li>
+                <li><a class="item">Servitude</a></li>
+                <li><a class="item">Short-Tempered</a></li>
+                <li><a class="item">Shy</a></li>
+                <li><a class="item">Slow</a></li>
+                <li><a class="item">Soft-Spot</a></li>
+                <li><a class="item">Stubborn</a></li>
+                <li><a class="item">Trigger</a></li>
+                <li><a class="item">Unlucky</a></li>
+                <li><a class="item">Vulnerability</a></li>
+                <li><a class="item">Wanted</a></li>
+                <li><a class="item">Weak</a></li>
+                <li><a class="item">Weak-Willed</a></li>
+            </ul>
+            </div>
+        </div>
+
+        <!-- <div class="modal-background"></div> -->
+
+<!-- ctrl+shift+P to open the thing to make a .flex-wrapper around each item -->
+<!-- Note for plug & chug: each id must match a lowercase version of the name in the list's item class in order to display properly-->
+        <div id="agile" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+            <h3 class="item-name">Agile</h3>
+            <p class="item-text">You are naturally adept at moving your body skillfully. Your graceful movements can impress others as well as aid in a variety of derring-do. Add your <em>Agile</em> dice to Attack Rolls and while balancing,  dancing, performing aerial feats, or taking  on other activities that test your coordination and grace</p>
+            </div>
+        </div>
+        <div id="armoured" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Armoured</h3>
+                <p class="item-text">Your body is guarded from potential harm. The exact form this protection takes could be anything, whether it&#39;s a reinforced combat suit, a high-tech force field, or just a really thick hide. For every Level you have in <em>Armored</em>, you may reduce the Damage Multiplier of any attack made to you by 1. If the Damage Multiplier would be reduced to zero or below, reduce it to ½ instead.</p>
+            </div>
+        </div>
+        <div id="art-of-invisibility" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Art of Art-of-Invisibility</h3>
+                <p class="item-text">You have an uncanny ability to move silently and blend into the shadows. You can add your <em>Art of Invisibility</em> dice when hiding, sneaking, and shadowing others or at any time when remaining unnoticed is desirable.</p>
+            </div>
+        </div>
+        <div id="attack" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Attack</h3>
+                <p class="item-text">Sometimes you have no choice but to fight. Luckily, you are equipped to deal with that! Your <em>Attack</em> Ability represents your capacity to dish out damage to adversaries, and each Level increases your Damage Multiplier (or DX) by 1. Whether Attack represents an ancient martial arts technique, a really big sword, or solely your fists is completely up to you.</p>
+            </div>
+        </div>
+        <div id="beautiful" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Beautiful</h3>
+                <p class="item-text">Beauty may be in the eye of the beholder, but you&#39;ve managed to find your way into everyone&#39;s eyes! Your remarkable good looks tend to draw the attention of those around you and certainly make it easier to excel in jobs that require it, convince others to do as you like, and be sufficiently distracting when you want to be. When you take advantage of your appearance to aid the task at hand, add your <em>Beautiful</em> dice.</p>
+            </div>
+        </div>
+        <div id="charismatic" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Charismatic</h3>
+                <p class="item-text">You are incredibly influential. Your manner, attitude, and presence make people acknowledge you, listen to what you have to say, and most importantly, see it your way. You may add your <em>Charismatic</em> dice when trying to convince, distract, inspire, or in any way charm others to do what you like or champion your cause.</p>
+            </div>
+        </div>
+        <div id="combat-expert" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Combat Expert</h3>
+                <p class="item-text">You have trained yourself in an array of offensive tactics. With this Ability, you have the capacity to strike your opponent where it hurts, hit them hard, and look cool doing it. When making an Attack Roll, showing off your offensive expertise, or analyzing that of your opponent, add your <em>Combat Expert</em> dice.</p>
+            </div>
+        </div>
+        <div id="companion" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Companion</h3>
+                <p class="item-text">You have a loyal ally, faithful servant, or even a fuzzy friend that is always by your side. Whatever the form, this is someone you can count on. He or she has a total of abilities and weaknesses equivalent to your level in <em>Companion</em>. However, this <em>Companion</em> can never be a true hero in your story and has a reduced health and endurance total of 20 each befitting such a role.</p>
+            </div>
+        </div>
+        <div id="connected" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Connected</h3>
+                <p class="item-text">You have made a variety of contacts that you can call upon for favors. Perhaps they can obtain goods normally not in your reach or get you in places you could not normally get into. At Level 1, you know a guy who knows a guy, and they might be able to get you a discount or let you into a semi-private club. At Level 2, you have a friend who you can consistently rely on. You may have a supplier who can get you rare parts for your creations, an informant who can give you news about a certain subject or organization, or a skilled craftsman who can lend their talents. At Level 3, you know a variety of people in a small circle who can help you achieve what you want or have a friend with a wide breadth of uses. Though restricted to a particular field, you may have access to all of the previous examples at once. At Level 4, you have a vast assortment of contacts who owe you favors or are otherwise willing to aid you. Though it may take time, you can always find someone to help you with what you need. At Level 5, you are in with nearly everyone. No matter where you go, someone owes you something, and you can reasonably expect to cash in on a favor in any situation.</p>
+            </div>
+        </div>
+        <div id="cute" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Cute!</h3>
+                <p class="item-text">You are every grandparent&#39;s dream come true. In addition to being an easy target for cheek pinches, many find it hard to be angry, mean, or in any way aggressive towards you. On the flip side, you might also be hard to take seriously. You may add your <em>Cute!</em> dice whenever you wish to abuse your cuteness to get something you want, to persuade those you&#39;ve angered from taking their aggression out on you (or anyone else), or to simply put on the charm.</p>
+            </div>
+        </div>
+        <div id="dexterous" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Dexterous</h3>
+                <p class="item-text">You are incredibly adroit with your hands, making you well adapted to all matters of delicate manipulation. While this may be useful for certain illegal applications, you&#39;ll put this skill to good use, right? Roll your <em>Dexterous</em> dice any time you are trying to perform sleight of hand, pick pockets or locks, carefully rearrange wires or connections, or otherwise make fine interactions with your hands.</p>
+            </div>
+        </div>
+        <div id="endurance-reserve" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Endurance Reserve</h3>
+                <p class="item-text">Through some means, you have an extra store of Endurance for your use. It could be a personal capacity of adrenaline, a swig from your trusty flask, or something else with limits. Although having this extra Endurance is useful, unlike real Endurance, it cannot be spent for stamina-related tasks or to receive Drama Dice. It cannot be recovered in combat, nor is it automatically restored by a short rest. Endurance for this item can only be regained after a length of time, such as through recharging over a 24 hour period. Also, Endurance Reserve cannot be used for Damage taken in combat. If the character&#39;s own Health and Endurance is reduced to zero, they still fall unconscious, regardless of the amount of Endurance remaining in the item.</p>
+            </div>
+        </div>
+        <div id="evasive" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Evasive</h3>
+                <p class="item-text">You have learned that getting out of the way of danger is a useful skill indeed. You may add your <em>Evasive</em> dice when you wish to avert personal peril, escape restraint, or make Defense Rolls to outmaneuver or block punches, stabs, energy blasts, pillars of flame, massive explosions, heat-seeking missiles, or anything else intent on doing you harm.</p>
+            </div>
+        </div>
+        <div id="famous" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Famous</h3>
+                <p class="item-text">Through valor, fortune, or just being at the right place at the right time, you&#39;ve become easily recognizable and are thought of fondly by people you may never have met. At Level 1, a few people know your name and might give you a hearty handshake or humor small requests. At Level 2, you are recognized in your field, and those familiar with your work or history will be thrilled to meet you in person. At Level 3, you are well known in many venues and can often cash in on your fame for a favor, accommodations, or other perks. At Level 4, you are world famous with countless adoring fans. You can expect the red carpet rolled out for you wherever you go and are treated to luxuries, favors, and amenities befitting your status. At Level 5, you are a legend. Meeting you in person is an unparalleled honor, and people will cater to your every need and want in hopes of being blessed with your presence a moment longer.</p>
+            </div>
+        </div>
+        <div id="gear" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Gear</h3>
+                <p class="item-text">You have equipped yourself with an item (or a collection of related items) that augments your own talents and capabilities. It may be a power suit built to increase your strength and toughness, a magical sword that grants you mystical power, or a customizable mechanical arm with an array of special effects. While you might consistently have access to this <em>Gear</em>, you are not required to use it all the time. Nor is its availability guaranteed, as it can also be lost, broken, or taken from you. For every Level that you have in <em>Gear</em>, you may spend an equal number of Levels to craft it from other Abilities. You may also choose Weaknesses to increase the number of Levels available to your <em>Gear</em>. Any Abilities and Weaknesses granted by this equipment are cumulative with your character&#39;s own, enhancing or diminishing any natural attributes.</p>
+            </div>
+        </div>
+        <div id="healer" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Healer</h3>
+                <p class="item-text">You have the remarkable skill to heal others from even the worst injuries. You might have some special power, divine influence, or just a really big box of bandages. Simply roll your <em>Healer</em> dice; the result is the amount of Health recovered. This task takes significant concentration and generally cannot be done in combat or when your attention is otherwise diverted. If others safeguard and protect your efforts, you can complete the action in a Round. However, if you make any other rolls, even a Defense Roll, the effort is aborted, and you must try again. If a full Round passes without intervention, you succeed and the appropriate Health is regained. Characters knocked unconscious can be brought around through restoring their Health above zero. Only so much can be done for any injury in a given day, and an amount of time determined by the Game Master must pass before any single character may be healed again.</p>
+            </div>
+        </div>
+        <div id="heightened-sense" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Heightened Sense</h3>
+                <p class="item-text">One of your five senses excels beyond the norm. You may have the nose of a bloodhound, eyes that can see the smallest detail near or far, or maybe just an unparalleled palate. You can add your <em>Heightened Sense</em> dice whenever you try to notice, differentiate, scrutinize or otherwise attempt something with this sense.</p>
+            </div>
+        </div>
+        <div id="intimidating" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Intimidating</h3>
+                <p class="item-text">You know how to frighten, bully, and overpower others through sheer presence. You may add your <em>Intimidating</em> dice whenever you try to force someone to do what you want—or just scare the living daylights out of them.</p>
+            </div>
+        </div>
+        <div id="intuitive" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Intuitive</h3>
+                <p class="item-text">While not necessarily well learned or book smart, you are certainly clever. You figure out things easily and pick up on small nuances others might miss. When you are trying to solve a non-academic problem, crack riddles, discern the true motives of others, put the pieces together, or otherwise rely on your personal insight, roll your <em>Intuitive</em> dice.</p>
+            </div>
+        </div>
+        <div id="inventor" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Inventor</h3>
+                <p class="item-text">You have a natural talent for creating machines and gadgets to serve a myriad of purposes. However, attempts to build these things are not automatically successful. You must roll your Inventor dice (as well as any other Abilities that apply, like Smart) and compare it to the Difficulty Number appropriate to the complexity of your invention. Some inventions might also require special parts and long periods of time to build at the Game Master&#39;s discretion. These inventions may also mimic other Abilities and Weaknesses. Compare the total (Abilities minus Weaknesses) to discover their complexity. Failed attempts produce nothing of value or something that will break (or explode) later on. New characters may start play with one or more inventions of complexity equal to their Ability in <em>Inventor</em>. For example, a character with +4 in Inventor may start with a Modern Marvel.</p>
+            </div>
+        </div>
+        <div id="iron-willed" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Iron Willed</h3>
+                <p class="item-text">You are always reliable under pressure and true to your values and loyalties. You can add your <em>Iron-Willed</em> dice when resisting temptation, fear, mind control, or anything else that tests your mettle and mental stamina.</p>
+            </div>
+        </div>
+        <div id="knowledge" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Knowledge</h3>
+                <p class="item-text">You have an interest or training in a particular area. This could range anywhere from computer programming and cooking to Japanese literature and Italian opera. When your expertise applies to the task at hand, add your <em>Knowledge</em> dice.</p>
+            </div>
+        </div>
+        <div id="linguist" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Linguist</h3>
+                <p class="item-text">You have an aptitude for speaking multiple languages. With one level in this feature, you are fluent with two languages. With two levels, you are fluent with three languages. At three levels you know 5 languages, at four levels you know 10 languages, and at 5 levels you know 17 languages.</p>
+            </div>
+        </div>
+        <div id="lucky" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Lucky</h3>
+                <p class="item-text">Lady Luck is on your side. Good things continually happen to you, and somehow even the worst of situations have a good side to them. (Your house has been blown sky high? You might just discover a natural oil well under it!) The higher your Level in Lucky, the more often it has an effect and to greater results. In addition to your natural luckiness, you also get a number of free Drama Dice equal to your Level in <em>Lucky</em>. These free dice are replenished only between adventures or at the Game Master&#39;s discretion.</p>
+            </div>
+        </div>
+        <div id="minions" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Minions</h3>
+                <p class="item-text">Whether by charisma, fear, or mind control, you have the ability to call upon a sizable troop of allies. For each Level you have in <em>Minions</em>, you may summon twice that many reinforcements. Each of these allies has a Health and Endurance of 10, and when their Abilities and Weaknesses are combined, they cannot have a total of Levels greater than twice your Level in Minions. The allies are loyal to you and will fight and work for you, but only so long as you maintain your reputation and personal relations with them. Minions cannot be summoned in all circumstances, and they will not perform suicidal or excessively dangerous tasks unless they are convinced there is no other way.</p>
+            </div>
+        </div>
+        <div id="passion" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Passion</h3>
+                <p class="item-text">There is a particular thing in life that drives you, so much that you feel yourself become more competent and powerful when in its presence. This can be a specific thing (race cars, classical music) or an emotion (love, anger). When in a situation that applies to your passion, you may add your <em>Passion</em> dice to all actions.</p>
+            </div>
+        </div>
+        <div id="perceptive" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Perceptive</h3>
+                <p class="item-text">You are in tune with the world around you and spot things that most people fail to notice. You can add your <em>Perceptive</em> dice to any attempts to notice things out of the ordinary, detect changes in people or things, sense your surroundings, or search an area for an item. While sight is an obvious application, the Perceptive Ability is by no means limited to visual detection.</p>
+            </div>
+        </div>
+        <div id="performer" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Performer</h3>
+                <p class="item-text">They like you, they really like you! You are at home in front of an audience and are able to dazzle them with a diverse array of talents, from music and singing, clever tricks and slight of hand, to acting and storytelling. You are just naturally entertaining. When trying to impress—or distract—an audience, lift the spirits of weary comrades, or get grumbling fuddy-duddies to lighten up, roll your <em>Performer</em> dice.</p>
+            </div>
+        </div>
+        <div id="pilot" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Pilot</h3>
+                <p class="item-text">You have a knack for piloting any kind of machinery, no matter how strange or complicated. You may add your <em>Pilot</em> dice when attempting to drive cars, fly planes, steer boats, or even control spaceships. If you want your character to be able to pilot a single kind of vehicle, get the appropriate Knowledge Ability instead.</p>
+            </div>
+        </div>
+        <div id="position-of-power" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Position of Power</h3>
+                <p class="item-text">You are in a respected position that grants you power and influence. At Level 1, your power is limited and you only hold influence over a small subset of people. At Level 2, you control a small group and have minor influence over others outside of it. At Level 3, you control an important group whose influence is felt by many. At Level 4, you are in command of a major organization and have many resources at your disposal, as well as a significant amount of influence. At Level 5, your control is unquestioned, your power is incredible, and you hold influence over almost everyone.</p>
+            </div>
+        </div>
+        <div id="quick" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Quick</h3>
+                <p class="item-text">You are particularly fast and have quick reflexes. You can add your <em>Quick</em> dice to dodging, running, driving, Initiative, Defense Rolls, or anything else that challenges your speed and ability to react.</p>
+            </div>
+        </div>
+        <div id="resistance" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Resistance</h3>
+                <p class="item-text">You are especially resilient to a specific kind of power or attack, such as fire-fueled blasts, chi-powered martial arts, the curses of Witchcraft, or a strike to a specific area of your body. Any attempts to affect you with the appropriate Abilities either suffer a Penalty to their roll or, if an attack, their Damage Multiplier. Unlike many other Abilities and Weaknesses, should the DX of an attack be reduced to zero by Resistance, it is in fact reduced to zero, not ½. Reducing a DX into the negative range may even cause an attack to have the opposite effect, restoring Health by a multiplier equal to the number below zero.</p>
+            </div>
+        </div>
+        <div id="smart" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Smart</h3>
+                <p class="item-text">You have a significant helping in the brains department. You can roll your <em>Smart</em> dice when recalling facts, designing inventions, casting spells, deciphering codes, passing that midterm, or attempting anything else that challenges your IQ.</p>
+            </div>
+        </div>
+        <div id="strong" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Strong</h3>
+                <p class="item-text">You have significant physical power at your disposal. You can add your <em>Strong</em> dice when lifting, breaking, climbing, or performing any action that tests your strength. Strong also acts as a Bonus to your Damage Multiplier when fighting barehanded, striking with weapons, or otherwise attacking with your own power. What follows is a list of suggested difficulties for heavy lifting. The specific examples in parenthesis are written to apply to a typical human and would not be appropriate for towering mecha and other things of scale. Note also that these Difficulty Numbers imply actually lifting and carrying the object around. If the intention is to just lift the object a few inches off the ground for a short period of time, the difficulty might be a little lower.</p>
+            </div>
+        </div>
+        <div id="tough" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Tough</h3>
+                <p class="item-text">Simply put, you&#39;re made of tougher stuff. You gain a bonus to Health equivalent to the table in the book. You can also add your <em>Tough</em> dice when forced to shrug off pain or otherwise exhibit your resilience and durability.</p>
+            </div>
+        </div>
+        <div id="vigorous" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Vigorous</h3>
+                <p class="item-text">You have an abundance of energy and the ability to persevere against the effects of fatigue. You receive a bonus to Endurance equivalent to the table in the book. You can also roll your <em>Vigorous</em> dice when trying to resist ailments, stay exhaustion, and recover lost Health. (See Recovering Health on p. 113 in the Combat, Health, &amp; Endurance chapter.)</p>
+            </div>
+        </div>
+        <div id="walking-arsenal" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Walking Arsenal</h3>
+                <p class="item-text">You are a living warehouse. Your enthusiasm for a certain kind of item is so great that you own nearly every specimen of it. With the <em>Walking Arsenal</em> Ability, you must pick another of your Abilities as its focus, such as Gear or Vehicle. You may now alter its attributes at will—essentially, grab a different gadget from your utility belt or get another vehicle from the hangar. You may not retrieve an item of an Ability Level greater than your Level in <em>Walking Arsenal</em> or the Level of the focused Ability. While there are no other hard limitations for <em>Walking Arsenal</em>, it is usually appropriate for your collection to follow a specific theme of some kind, like military equipment or a bag of magic tricks. It also helps to make a list of your favorite items before play.</p>
+            </div>
+        </div>
+        <div id="wealthy" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Wealthy</h3>
+                <p class="item-text">Your fat wallet is the envy of all that gaze upon it. At Level 1, you are mildly wealthy and can afford to be extravagant with fancy clothes and lavish dinners. At Level 2, you can afford to buy expensive items on a regular basis, including state-of-the-art electronic setups and tailored suits or designer gowns. At Level 3, you can afford expensive cars, personal servants, and other such luxuries. At Level 4, you live in a mansion, ride in limousines, own a vast collection of cars and personal aircraft, and are easily the richest person around. At Level 5, you can buy anything and everything.</p>
+            </div>
+        </div>
+        <div id="absent-minded" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Absent-Minded</h3>
+                <p class="item-text">You have the unfortunate tendency to forget things at inopportune times. At Level 1, tasks you are supposed to do often slip your mind, such as attending important meetings or doing your homework. At Level 2, you have trouble recalling recent conversations and events, and even when you do remember, the details often escape you. At Level 3, you have the memory of a goldfish, making the world a practical blank past five minutes ago. You usually don&#39;t remember anything very long, and sometimes get lost while you are speaking or forget what you are doing while you&#39;re doing it."</p>
+            </div>
+        </div>
+        <div id="ageism" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">ageism</h3>
+                <p class="item-text">You are easily dismissed by others as useless or a bother because of your apparent age. At Level 1, you appear to be a young teenager or getting on in years. You are not completely ignored, but you are often forgotten or unwanted. At Level 2, you look childlike or quite elderly. No one takes you seriously, and you find it hard to get respect from anyone. At Level 3, you appear to be a very small child or absolutely ancient. Respect is nearly impossible to find, and the idea of having you around is immediately thought of as "babysitting."</p>
+            </div>
+        </div>
+        <div id="airhead" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Airhead</h3>
+                <p class="item-text">Anybody home? The answer to this question is somewhat debatable in your case. You may not be stupid or naive but come off as both through your sheer ability at not understanding, misinterpreting, or otherwise not retaining anything you are told. At Level 1, you sometimes miss the point of a conversation if it gets too long or complicated, and subtle humor completely eludes you. At Level 2, long-winded conversations go over your head completely. You have a hard time following instructions, and only the most overt attempts at with will successfully be conveyed to you. At Level 3, you have the attention span of a three-year-old but without the patience to sort building blocks by color. Almost nothing can be successfully discussed with you, and you totally miss the point of anything that&#39;s not a plainly stated fact.</p>
+            </div>
+        </div>
+        <div id="amnesia" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Amnesia</h3>
+                <p class="item-text">Due to a strange illness, a freak accident, or some kind of foul play, you have lost your memory. At Level 1, the onset of your illness was long ago, and you have made many new memories. However, you may still long to know your forgotten beginnings and the cause of your memory loss. At Level 2, your amnesia is fairly recent. You have had time to readjust to where you are, but much of your life is a blank slate. At Level 3, your amnesia is very recent, and you have almost no memories at all. You may be completely lost and confused by your surroundings and filled with a dire need to know who you are.</p>
+            </div>
+        </div>
+        <div id="arrogant" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Arrogant</h3>
+                <p class="item-text">You are the most important person to ever live... in your mind anyway. You believe in your own superiority to a fault and may offend others with your haughtiness, not to mention find your way into rough situations. At Level 1, you think you are superior to most around you but respect a select few, and those “below” you are treated with at least mild civility. At Level 2, you place yourself above almost everyone, and only a few are worthy “equals.” You often treat your inferiors with hostility or a cold, pompous attitude. At Level 3, you are the sole reason for the world to be, and you are quite annoyed by the fact that others do not see this. Your hubris knows no bounds, and you treat everyone, regardless of who they are, as if they were dirt. When attempting matters of diplomacy, or otherwise performing tasks that require you to keep your arrogance in check, subtract your <em>Arrogant</em> dice.</p>
+            </div>
+        </div>
+        <div id="awkward-size" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Awkward Size</h3>
+                <p class="item-text">You are of curious stature. You are either much smaller or much larger than those around you. At Level 1, you sometimes find it hard to use items and be in places meant for the typical human being, but you can still function in society. At Level 2, you cannot use many items meant for normal-sized people. Your size also creates a great hindrance in navigating your surroundings. You might be so large that you only fit in the most spacious of rooms—if you can even get through the doorway. Or you may be small enough that you have problems with things being built much taller and larger than you. Many minor obstacles can become significant challenges. At Level 3, you may be simply huge and cannot use anything meant for typical people, nor can you really function in any normal-sized environment without destroying pieces of it regularly, like knocking over trees while walking through a park. On the other hand, you may be positively tiny, unable to get around this “big” world easily. Everyday items become mountains and other insurmountable feats.</p>
+            </div>
+        </div>
+        <div id="bizarre-appearance" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Bizarre Appearance</h3>
+                <p class="item-text">You have an appearance that is markedly different from those around you. At Level 1, you have a few noticeable, distinguishing features that, though odd, do not cause alarm or hatred in others. You may even be able to disguise your appearance with a little effort. At Level 2, you have many traits that single you out. You might not be hideous, but your appearance may startle those unfamiliar with you or cause immediate distrust. You could never blend in as “normal.” At Level 3, you are a monster. Children get scared and run from you, and others are greatly alarmed and try to avoid your company.</p>
+            </div>
+        </div>
+        <div id="clumsy" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Clumsy</h3>
+                <p class="item-text">You, put simply, are a klutz. Things tend to find their way out of your grasp, you easily lose your balance, and at best others describe your attempts at anything that requires finesse of movement as awkward. At Level 1, you may be a bit butterfingered or accident-prone, but you aren&#39;t absolutely hopeless. You might even be able to move somewhat gracefully if you practiced enough. At Level 2, things tend to get broken in your presence, and any kind of beautiful or skilled movement is almost entirely outside of your ability. At Level 3, you may as well be a bull in a china shop with about as much grace. When attempting feats of agility, catching or balancing objects, making Attack Rolls, or facing other tasks that require your coordination, subtract your Clumsy dice.</p>
+            </div>
+        </div>
+        <div id="code-of-conduct" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Code of Conduct</h3>
+                <p class="item-text">You have restricted your manner and actions by a defined code. At Level 1, this code is simple, usually containing only one major facet, such as honesty, refined manners, or a sense of fair play. At Level 2, your code may have many rules, such as the edicts of a major organization, a code of chivalry, or a series of established traditions. On the other hand, your code may be simplistic but highly inhibiting. At Level 3, your code of conduct dictates every detail of your life, like belonging to an organization sworn to secrecy, a secluded temple with a strict moral code and elaborate rituals, or even the yakuza.</p>
+            </div>
+        </div>
+        <div id="compulsion" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Compulsion</h3>
+                <p class="item-text">Sometimes you just can&#39;t help yourself. You have an intense need to act a certain way or perform some task, even when doing so could prove inconvenient. At Level 1, your impulse is difficult to keep in check, but it has few real consequences if you fail to do so. You may chatter on incessantly and annoy others, have an insatiable curiosity that gets you into trouble, or just can&#39;t resist stopping for a snack. At Level 2, your compulsion can adversely affect your life, and you can only control it with extreme difficulty. You may blurt out the truth even to your enemies or feel compelled to gamble every cent of your paycheck away. At Level 3, you cannot resist this temptation, and you probably resent anyone insinuating that you have a problem. You may be a hopeless addict, a kleptomaniac, or someone otherwise saddled with a compulsion so severe that it can seriously harm your well-being.</p>
+            </div>
+        </div>
+        <div id="coward" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Coward</h3>
+                <p class="item-text">He who fights and runs away lives to fight another day. With just a little tweaking to “run away,” this is your mantra. You are uneasy around danger and usually the first to bolt at the sign of trouble. At Level 1, you can hold your own for a while, but as soon as the tide of any situation turns against you, you are likely to make a convenient exit. At Level 2, you are frightened by danger and try to avoid it whenever possible. You are not above hiding from time to time, and if forced to confront this danger, you will usually run away at the first opportunity. At Level 3, self-preservation is the word, and you avoid any kind of danger, no matter how slight, with all your being. If forced into a sticky situation, you will escape by any means possible. It is not beyond you to divert attention to anyone around to help your flight, even when such actions can cause them serious harm. If by some bizarre chance you stick around, you are usually too preoccupied with finding a safe place to hide to actually be of any use to anyone.</p>
+            </div>
+        </div>
+        <div id="crybaby" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Crybaby</h3>
+                <p class="item-text">You are quite easily upset and have the annoying tendency to whine when things fail to go your way. At Level 1, while you are not much more sensitive than the average person, you do cry often enough and have a propensity to complain that may put others off. At Level 2, you cry regularly without significant cause. You want the world to be exactly how you wish and complain at length when it fails to meet those expectations. At Level 3, you sob profusely at even the slightest provocation, and you refuse to do anything that doesn&#39;t directly fall under what you want to do. Even when it does, you&#39;ll likely find a reason to cry about it anyway.</p>
+            </div>
+        </div>
+        <div id="dense" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Dense</h3>
+                <p class="item-text">You are not known for your sharp wit or book smarts, and tasks requiring either are difficult for you. At Level 1, you may not be the brightest bulb in the box, but you are capable of understanding most things if you put in the effort. At Level 2, you speak simply, even the most basic calculations stress your brain cells, and any effort to absorb new knowledge or puzzle out a solution is a lengthy, arduous process. At Level 3, you barely possess human intelligence. Your language is broken, your ability to read questionable, and attempts to learn or figure out any scholastic task is beyond you. Subtract your Dense dice when attempting to learn new information, solve a problem, articulate your thoughts, put two and two together, or otherwise perform anything involving academics or reasoning.</p>
+            </div>
+        </div>
+        <div id="dependency" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Dependency</h3>
+                <p class="item-text">You have a deeply ingrained need for something, whether it is an addiction, like drinking, or something more superstitious, like the need to carry a lucky rabbit&#39;s foot. If you are without the object of your dependency for too long—or at all, perhaps—you receive a Penalty to all actions equal to your Level in <em>Dependency</em> until you can once again have it. You may also become depressed or unwilling to take action when bereft of your dependency.</p>
+            </div>
+        </div>
+        <div id="dull" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Dull</h3>
+                <p class="item-text">While we all can&#39;t be Casanovas or charismatic speakers, your capacity to bore and disengage any audience is exemplary. At Level 1, you are not completely dreadful, but dates tend to be awkward and uneventful, and an audience may get your message but will rarely remember you for it. At Level 2, you drone on and on and people are compulsively unreceptive. Dates find excuses to leave the table, and audiences find other diversions and might miss your point. At Level 3, you are impossibly boring. Dates fake mortal injuries to escape your presence, and audiences fall asleep in droves. Subtract your <em>Dull</em> dice from any tasks involving your personality or likeability.</p>
+            </div>
+        </div>
+        <div id="easily-distracted" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Easily Distracted</h3>
+                <p class="item-text">During the fight of your life, if someone told you, “Hey, look that way!” you would indeed look that way. You&#39;re not necessarily gullible, but it&#39;s far too easy to distract you. At Level 1, sounds, bright lights, voices, and other attention-getters easily attract your notice. You may be taken by these diversions of interest but will quickly refocus on the task at hand. At Level 2, you will not only divert your attention, but you may spend significant time studying the object of distraction. At Level 3, you will immediately focus all your efforts on this distraction. Even obvious fake-outs and lies will keep you looking for a sizable chunk of time.</p>
+            </div>
+        </div>
+        <div id="emotionless" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Emotionless</h3>
+                <p class="item-text">You have deadened emotions, whether by forcefully suppressing these feelings or by never having them to begin with. At Level 1, you do have feelings, but you rarely express them, and when you do, it is to a very limited extent. At Level 2, your emotions are buried so deeply that you may not recall having ever felt anything. Only the most dramatic stimuli will elicit anger, joy, fear, sadness, or any other emotion from you. At Level 3, you not only have no emotions, but you also lack a capacity to understand other human ideals, such as right and wrong, selflessness and selfishness, good and bad, or anything else beyond logical comprehension and reaction to your surroundings.</p>
+            </div>
+        </div>
+        <div id="endurance-use" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Endurance Use</h3>
+                <p class="item-text">One of your Abilities draws upon your inner strength. Each Level in <em>Endurance Use</em> causes the Ability to drain Endurance each time it is used, or if it already has an Endurance cost, the amount required is increased. There's a table that further details this on page 70 of the book.</p>
+            </div>
+        </div>
+        <div id="fear" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Fear</h3>
+                <p class="item-text">You have an unnatural fear of an everyday object or situation, like spiders or heights, that limits your ability to function normally when confronted with it. At Level 1, you are uncomfortable in the presence of your fear and will try to distance yourself as soon as possible. At Level 2, you are genuinely scared and will do anything within reason to escape. At Level 3, you are so terrified by your fear that if you cannot run away immediately, you will freeze, curl up in a ball, or assume some other useless state. If you must perform an action, subtract your <em>Fear</em> dice.</p>
+            </div>
+        </div>
+        <div id="focus" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Focus</h3>
+                <p class="item-text">One or more of your Abilities require a special item to use. This may be a focusing point for your spiritual energy, or the item may actually generate the Ability itself. While this object is usually in your possession, should it become lost, stolen, or even broken, you can no longer use the Ability until it is recovered. At Level 1, you lose a single Ability without your focus, but you can get by without it. At Level 2, you may lose multiple Abilities or lose one or two of your core strengths. Not having your focus is a major burden. With Level 3, nearly all of your Abilities are lost, or you lose powers and skills that are vital to your existence. You become a pale version of yourself.</p>
+            </div>
+        </div>
+        <div id="frail" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Frail</h3>
+                <p class="item-text">You are more fragile than the average person. Perhaps you&#39;ve led a pampered life, unhardened by the toil of labor, or your health may be compromised by a chronic illness. For each Level in Frail, subtract 10 from your Health.</p>
+            </div>
+        </div>
+        <div id="greedy" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Greedy</h3>
+                <p class="item-text">You covet the good life, and no matter what you get, you always want more. At Level 1, you fancy material possessions a little more than you should, and finding any way to increase your personal wealth preoccupies your thoughts. At Level 2, you value things way too highly. Most of your time is spent attaining the latest object of your affection, and you are often blind to good sense, willingly taking unreasonable risks to pad your wallet. At Level 3, you must have everything, and someday it will all be yours. Nothing gets in your way, and the well-being of friends, or even yourself, serves as little more than a speed bump toward your goal.</p>
+            </div>
+        </div>
+        <div id="guardian" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Guardian</h3>
+                <p class="item-text">You have someone that you must protect. This could be for personal reasons (because you love your sister dearly) or a specific duty (because you are a bodyguard). At Level 1, the person you must protect is rarely in danger and certainly has no one specific to be defended from. At Level 2, the person is moderately well known and may get into trouble because of it, or they might have deep disagreements or rivalries with another party, causing possible action or violence towards them. It is also possible that they just manage to get into unfortunate situations that require your intervention. At Level 3, the person might be a major celebrity in need of constant protection, someone actively sought after by a large organization, or simply a convenient means to get to you. On the other hand, this person could be inherently self-destructive, constantly getting into highly dangerous situations that require you to rescue them.</p>
+            </div>
+        </div>
+        <div id="hatred" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Hatred</h3>
+                <p class="item-text">You have a completely irrational hate of something, and being in its presence may cause you to become angry or even invoke violence. At Level 1, you can curb your hatred. However, you will avoid the object in question, or if a person, might act cold or inhospitable. At Level 2, you can hardly keep your hatred in check. You will want to harm or dispose of the object in question, or if a person, be extremely harsh or violent towards them. At Level 3, you become engulfed in rage. You must destroy or kill the object of your hatred and will risk everything to do so. Little, if anything, will keep you from unleashing your fury.</p>
+            </div>
+        </div>
+        <div id="impaired-sense" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Impaired Sense</h3>
+                <p class="item-text">One of your five senses fails to perform at full capacity. You may be hard of hearing, struggling to understand conversations around you, or have bad vision that makes objects difficult to make out. At Level 1, the sense is only mildly impaired, while at Level 2 you have a significant handicap. At Level 3, this sense is entirely, or at least practically, useless. When attempting to use this sense to discern, scrutinize, or perform something, subtract your <em>Impaired Sense</em> dice.</p>
+            </div>
+        </div>
+        <div id="impulsive" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Impulsive</h3>
+                <p class="item-text">The old saying “Look before you leap” never really penetrated your thoughts very far. You tend to jump into situations without thinking through the possible consequences…or really thinking that much at all. At Level 1, even though you are impulsive, you can be somewhat rational, especially if others are trying to talk you out of whatever crazy stunt you are considering. At Level 2, you do not think about any course of action for long. You easily get yourself into a mess, and only the direst of situations have a remote possibility of making you think twice. At Level 3, you think it, you do it. That simple.</p>
+            </div>
+        </div>
+        <div id="ineptitude" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Ineptitude</h3>
+                <p class="item-text">No matter how hard you try or how much you practice, you are just really bad at a certain skill or craft. When attempting to perform the object of your ineptitude, subtract your <em>Ineptitude</em> dice.</p>
+            </div>
+        </div>
+        <div id="infamous" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Infamous</h3>
+                <p class="item-text">Your reputation precedes you in a very bad way. People may distrust you or even hate you, regardless of whether your reputation is deserved. At Level 1, your reputation is more gossip than a true stigma, though some may steer clear of you. At Level 2, your infamy is more renowned and could cause fear, mistrust, or even disgust in those that have heard of you. However, you might be able to overcome their convictions through your actions. At Level 3, your reputation is known by nearly everyone, and they keep their distance out of fear or hatred. Although it might be possible to overcome this, most will just ignore what you do good and only remember what you have—or at least, are said to have—done.</p>
+            </div>
+        </div>
+        <div id="jittery" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Jittery</h3>
+                <p class="item-text">Although not necessarily a coward, you are easily startled or frightened by unexpected occurrences. At Level 1, sudden physical contact, sights, and sounds easily surprise you. You may flinch or make other sudden movements, but the consequences are generally more embarrassing than dangerous. At Level 2, if you don&#39;t see or hear it coming, it is likely to startle you significantly. You may yell in fright or take a combat stance in response. At Level 3, your world is one of many dangers lurking just out of sight. When startled, you might run away screaming or blindly attack anything that frightens you.</p>
+            </div>
+        </div>
+        <div id="kind-hearted" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Kind-Hearted</h3>
+                <p class="item-text">Kindness is a quality to aspire to, but you take what would be a pillar of virtue and drive it into the ground. At Level 1, you&#39;ll never hold a grudge, and it&#39;s easy to get back in your good graces. You do your best to be kind and helpful where you can, even if it proves inconvenient. At Level 2, you can&#39;t help but be good to those around you, even if they have done you wrong. You will go out of your way and suffer hardship to do the right thing. At Level 3, your kindness knows no restraint or measure. You will forgive sworn enemies and lend a helping hand even when you are sure it will be bitten in return.</p>
+            </div>
+        </div>
+        <div id="languid" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Languid</h3>
+                <p class="item-text">You lack the energy and pep of most other people. You tire easily and try to avoid strenuous activity. For each Level in <em>Languid</em>, subtract 10 from your Endurance.</p>
+            </div>
+        </div>
+        <div id="lecherous" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Lecherous</h3>
+                <p class="item-text">Although most have some sort of desire for companionship, they can also keep their urges in check. Unfortunately for you, you can&#39;t. At Level 1, you have a penchant for naughty things and will make attempts to get your hands on them, as well as sneak peeks at attractive members of your desire when the opportunity presents itself. At Level 2, you are a hopeless pervert and regularly buy various raunchy articles, take considerable risks to get revealing looks, and capitalize on any opportunity to glomp, grab, or otherwise handle desirable targets. At Level 3, your sex drive is completely out of control. You will fondle, stare at, or otherwise harass anyone regardless of the consequences. You spend most of your free time patrolling private places in hopes of getting a look-see, and you often raid them for personal items.</p>
+            </div>
+        </div>
+        <div id="limited-uses" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Limited Uses</h3>
+                <p class="item-text">One of your Abilities can only be used a limited number of times before ceasing to function. It could be a magical power you can call on only so often in a day, a piece of equipment with a certain number of charges, or simply a weapon with a finite number of bullets. At Level 1, you may only use this Ability around five times. At Level 2, you are limited to activating the Ability about three times. At Level 3, the Ability may only be performed once before being rendered inoperable. The Ability may be reloaded under certain circumstances but generally requires a day of rest or an otherwise significant wait to be restored.</p>
+            </div>
+        </div>
+        <div id="loner" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Loner</h3>
+                <p class="item-text">One is the loneliest number, and you like it that way. You prefer your own company and avoid help from anyone—even when you might really need it. At Level 1, going it alone is always your first choice, but you&#39;ll pass and repass with others and work together when it makes sense. At Level 2, you have little patience for social interaction beyond the necessities. You will work with others… but only for as briefly as possible. At Level 3, you make your own way or you don&#39;t make it at all. You drive everyone away and refuse their company with violence.</p>
+            </div>
+        </div>
+        <div id="love-interest" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Love Interest</h3>
+                <p class="item-text">Ah, the beauty of love. There is someone you hold a special place for in your heart, or vice versa. At Level 1, you have a caring, mutual relationship. Although there are no special complications, such a relationship still requires a substantial commitment. On the other hand, you may have an unwanted love interest that can&#39;t take a hint and insists on being a constant annoyance. At Level 2, you might have a strong love for someone else, but sadly it is unrequited. You may devote much of your energy and time to this pointless chase. If this is not the case, your love life is at least somewhat complicated. At Level 3, you may have any of the above relationships, but the romance is forbidden or otherwise socially unacceptable. Your respective families may refuse to allow you to be together, or you might be of incompatible backgrounds. In any case, your relationship is complicated and difficult, if not impossible.</p>
+            </div>
+        </div>
+        <div id="love-magnet" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Love Magnet</h3>
+                <p class="item-text">You are one of the most romantically eligible people around. At Level 1, many are attracted to you and may hit on you from time to time, but few are interested in a serious relationship. At Level 2, you often have a number of groupies who fawn over you, as well as several other more serious (yet possibly unwanted) relationships that appear regularly. At Level 3, you are a literal Love Magnet and cannot go anywhere without being swarmed by a variety of admirers, many of whom have vowed their undying love for you. New significant love interests may pop up daily!</p>
+            </div>
+        </div>
+        <div id="mute" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Mute</h3>
+                <p class="item-text">Whether by accident, ailment, a poor grasp of the language, or just a lack of intelligence, you have a compromised capacity to speak. At Level 1, you can convey your thoughts, but you do so with simplistic words and broken grammar. At Level 2, you are unable to speak at all but have the ability to convey what you mean through pantomime and non-lingual vocalizations. Getting people to understand you could take some work, but you usually get the job done. At Level 3, you have no concept of language at all and can only convey the most basic of messages.</p>
+            </div>
+        </div>
+        <div id="naive" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Naive</h3>
+                <p class="item-text">Most people are well aware of the fact that the moon is made of rock, but you are among the small number of people that still believe it is made out of cheese. In other words, you are rather unknowledgeable about the nature of the world, and you often believe things that rational people would know as false. At Level 1, you may fall for relatively small tugs on the truth and gossip, like “The Malicron Corporation plans on buying out a small business,” or “Daisuke wants to retire to the countryside.” At Level 2, you may fall for some outrageous stories and flat-out lies, like “The Malicron Corporation owns Soh-nii Records,” or “Auren adopted a puppy.” At Level 3, you are so gullible and naive that you may very well believe anything! For example, “The Malicron Corporation owns you,” or “Miho is opening her own bakery.”</p>
+            </div>
+        </div>
+        <div id="nosebleeder" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Nosebleeder</h3>
+                <p class="item-text">Due to bizarre anime medical law, your nose has the tendency to bleed whenever you catch sight of the nude form—or at least a revealing glimpse—as well as when you have particularly risqué thoughts. At Level 1, you spawn a small trickle, which really causes no harm except to reveal yourself to others. At Level 2, the nosebleed is more serious but easily stopped if you follow the correct medical procedure. This takes time, but if you choose to ignore it, you receive a &#45;2 Penalty to all actions. At Level 3, you spout a waterfall of blood and soon lose consciousness. The time for recovery is left to the Game Master&#39;s discretion.</p>
+            </div>
+        </div>
+        <div id="oblivious" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Oblivious</h3>
+                <p class="item-text">You have difficulty noticing things out of place, picking up on subtle details, or otherwise being aware of your surroundings. If it were a snake, it would have bitten you. At Level 1, while you&#39;re not completely checked out, things have to be fairly obvious to attract your attention. Searching for anything not left in plain sight is an arduous task, and it&#39;s easy for small details to change without calling your attention. At Level 2, all but the most blatant elements escape your detection. Searches are an exercise in futility, and obvious changes to your surroundings, belongings, and even friends may go unnoticed. At Level 3, you are completely unaware of anything around you. Things lost stay lost, your bedroom could be completely redecorated—or ransacked—without you being the wiser, and even the most drastic of changes in your friends fail to make an impression. When attempting to notice things out of the ordinary, or notice anything period, subtract your <em>Oblivious</em> dice.</p>
+            </div>
+        </div>
+        <div id="obsession" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Obsession</h3>
+                <p class="item-text">You have an intense desire to have or achieve something. Your life revolves around this obsession, and you will go out of your way to succeed in obtaining it. At Level 1, you feel the urge often, but your obsession does not monopolize your life. You may even turn down realizing the object of your obsession if much bigger things are at stake. At Level 2, the obsession is extremely important to you, and you often push aside other interests to better pursue it. You may even choose it over things that would logically be much more important. It would be a moral crisis to choose between your obsession and a friend, or maybe even your continued personal well-being. At Level 3, your obsession is your sole reason for existence. Nothing is comparable, and nothing can stand in your way. You will choose your obsession over things that are incredibly important to you, like friends and family or even your own life.</p>
+            </div>
+        </div>
+        <div id="outcast" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Outcast</h3>
+                <p class="item-text">You do not belong here, and others are eager to help you understand this. You may have been ostracized due to your actions or affiliations, or perhaps you were just born into it. Whatever the reason, there are those who would rather you be somewhere else... or not “be” at all. At Level 1, you are discriminated against by a small group, such as a club or clique of friends in high school. This group may be hostile towards you, and you cannot participate in their activities. At Level 2, you are an outsider to a substantial group, such as an organization at work or a majority of the student body. Avoiding run-ins with them is problematic for you. At Level 3, your presence is largely questioned by almost everyone around you. Discrimination, disgust, and even outright violence are a daily part of your life.</p>
+            </div>
+        </div>
+        <div id="overconfident" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Overconfident</h3>
+                <p class="item-text">Although a fair helping of self-confidence can be a good thing, you went back for seconds. You have a bloated sense of what you can accomplish and your abilities in general. At Level 1, you still have a (relatively) level head, but you overstate your abilities enough to get into situations you truly are not well-equipped for. You don&#39;t like to give up, but you will eventually figure out when you are outmatched. At Level 2, only the largest obstacles are considered too big for you to take on. You often jump into situations way out of your league and find it hard to reconsider your course of action, even when it is apparent you cannot handle it. At Level 3, you think you can take on the world... with one arm tied behind your back. You will never concede that any situation is too tough for you and will be hard pressed to ever give up, whatever the circumstances may be.</p>
+            </div>
+        </div>
+        <div id="pacifist" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Pacifist</h3>
+                <p class="item-text">A deep part of you does not believe in the necessity of violence, and you try to avoid it whenever possible. At Level 1, you prefer peaceful means to resolve any confrontation, but you will fight if it becomes clear that no other solution will do. At Level 2, you will never attack anyone except in self-defense, to protect someone you care about from coming to great harm, or when it is otherwise a matter of life and death. At Level 3, you will never raise a hand to anyone, no matter what happens.</p>
+            </div>
+        </div>
+        <div id="poor" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Poor</h3>
+                <p class="item-text">Some people have all the money they could ever want, and there are others who have to fight tooth and nail to make ends meet. Unfortunately, you are of the latter. At Level 1, you live in cramped, unspectacular conditions and rarely have money to spend on anything beyond your basic needs. At Level 2, you live in a run-down shack or other dwelling barely passable as a residence. You have very little money and need to maintain multiple jobs to get by. At Level 3, you are dead broke and homeless. Even the most basic of purchases are beyond your reach. You might just be a traveler freed of the binds of material wealth and property… but more likely you are the victim of terrible circumstances.</p>
+            </div>
+        </div>
+        <div id="quirk" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Quirk</h3>
+                <p class="item-text">You have a curious habit or manner that might affect how others think about you. At Level 1, the habit is odd but probably thought of as more eccentric than offensive. You may carry a stuffed animal wherever you go, sing and rhyme constantly, or speak in an old-fashioned language. At Level 2, your idiosyncrasy could offend some people or otherwise prove awkward in social situations, but it would be unlikely to incur strong repercussions. You might swear like a sailor, hail from a foreign land with customs very different from those around you, or think of personal hygiene as a suggestion instead of a necessity. At Level 3, your quirk is very offensive and might cause outright hatred in others—even violence. You may kick puppies for sport, wear accessories made from the bones of your enemies, or openly kill animals to provide you with bloody, on-the-spot meals.</p>
+            </div>
+        </div>
+        <div id="restricted-freedom" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Restricted Freedom</h3>
+                <p class="item-text">Because of your job, your birth, or some other reason, you are limited in your capacity to do what you want to do, when you want to do it. At Level 1, you are only mildly inconvenienced. You may have a job that requires you to put in for vacation time and other leaves, or you could have very protective parents that make it difficult to do things without explicit permission. At Level 2, much of your life is dictated by your circumstances. You may have a job that requires you to report in daily and get approval for future activities, or perhaps you are part of a powerful family that keeps you close by and well guarded. At Level 3, every moment of your life is carefully penciled in. Your job may have complete control over your actions, or you might be royalty, with every moment scheduled and your every move watched over by a plethora of guards.</p>
+            </div>
+        </div>
+        <div id="rival" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Rival</h3>
+                <p class="item-text">There is someone you feel the need to best—or they feel the need to best you. More than likely, it&#39;s both. This rivalry could encompass anything: a simple contest of skills, a competition for someone&#39;s affections, or even deadly duels! At Level 1, your rival is less skillful than you or has a significant disadvantage. At Level 2, your competitor is just as capable as you are, or the playing field is otherwise equal. At Level 3, your rival possesses skills well beyond your own or otherwise has a significant advantage.</p>
+            </div>
+        </div>
+        <div id="rude" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Rude</h3>
+                <p class="item-text">You do not see the point in good manners or, really, being particularly well-behaved at all. At Level 1, you may come across as coarse, and often enough you are discourteous to others. At Level 2, you are seen as unmannered to the point of being blatantly offensive. Some of your actions may be considered crude or disgusting. At Level 3, you have no sense of proper behavior whatsoever. You do whatever pleases you and say whatever you feel like, regardless of the social repercussions. Unsurprisingly, you must subtract your Rude dice from any tasks involving charisma, charm, or etiquette.</p>
+            </div>
+        </div>
+        <div id="secret" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Secret</h3>
+                <p class="item-text">There is something about yourself that you wish to keep secret. You could be a crime fighter by night, hiding your identity in order to keep family and friends safe, or you may have a dark past that would ruin your life as you know it if revealed. At Level 1, you protect your secret, but should it be discovered, there are few serious consequences. These might involve mild embarrassment, an unwanted celebrity status, or other inconvenient social complications. At Level 2, you conceal your secret passionately. Should it be revealed, the secret would cause severe problems, such as the endangerment of yourself and others, the loss of your livelihood, or perhaps even incarceration. At Level 3, your secret must be kept at all costs. Your feeling of this may be so strong that you would choose death over its discovery. You believe that the revelation of your secret would completely destroy your life.</p>
+            </div>
+        </div>
+        <div id="sensitivity" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Sensitivity</h3>
+                <p class="item-text">Everyone gets at least a little annoyed when they&#39;re teased, but you take it to an entirely new level. You have a particular sore spot, be it your hair, wealth, muscle tone, chest size, or lack of any of the above, that you are incredibly sensitive about. At Level 1, any remarks about your sensitivity will immediately upset you. It may cause you to be angry or at least curt to the offender, or instead you might become despondent and withdrawn. At Level 2, such actions greatly disturb you. You might respond with open hostility and do whatever possible to get them back, physically or otherwise. On the other hand, these words might wound you deeply, making it difficult to forgive or forget. At Level 3, you will hold a grudge for this slight until the day you die, or failing that, until something monumental happens to change your mind. You will probably attempt to cause pain or hardship to this person at every available opportunity—or at least consistently avoid them regardless of how inconvenient it would be.</p>
+            </div>
+        </div>
+        <div id="servitude" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Servitude</h3>
+                <p class="item-text">You are in the service of a person or organization. As expected, you are required to perform any tasks and take any orders placed upon you. This could be the nature of your occupation, the result of a gambling debt, or even a self-imposed service to someone you admire or care about. At Level 1, your servitude is mostly voluntary, and although you feel obligated to perform your duties, you can weasel out of them when needed. At Level 2, you are devoted to your service and do your work to the best of your ability. You may sacrifice your duties if something very important to you comes up, but you may have to face repercussions for falling out of line or feel strong pangs of guilt. At Level 3, your servitude is your life, and little, if anything, comes between you and your duties. You comply with your tasks and orders without question, and not doing so could result in terrible consequences, or you may never forgive yourself for your disobedience.</p>
+            </div>
+        </div>
+        <div id="short-tempered" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Short-Tempered</h3>
+                <p class="item-text">If you were dynamite, you would have a frighteningly short fuse. It doesn&#39;t take much to get you angry, and you may lash out even when nothing has really been done to you. At Level 1, you tend to be irritable and easily annoyed. You may grumble and yell at others, but you rarely get downright angry unless you are justifiably provoked. At Level 2, you are prone to anger, and it takes little provocation to set you off. You might even resort to violence, if anyone is dumb enough to keep antagonizing you. At Level 3, you are angered by the slightest indiscretion against you even if it were an accident. You may view things that were not negative to you at all as if they were, and you react accordingly with loud outbursts and brutal attacks.</p>
+            </div>
+        </div>
+        <div id="shy" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Shy</h3>
+                <p class="item-text">You are very uncomfortable with social situations and find it difficult to make friends or even function in public without seeking a proverbial rock to hide under. At Level 1, you are a bit reclusive, preferring the company of a select few friends. Though not exactly anti-social, you tend to be quiet around those outside of your circle. At Level 2, you have a reputation for being shy. You are probably a social misfit or a reclusive bookworm, more comfortable in your own company than that of others. You only attend parties or other social gatherings if forced and have one or two close friends at best. At Level 3, social interactions are the worst of tortures for you. You avoid contact whenever possible, just barely interacting enough to get by with your life.</p>
+            </div>
+        </div>
+        <div id="slow" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Slow</h3>
+                <p class="item-text">Swift you are not, and your overall quickness is underwhelming. You tend to react to things well after they have happened, and the Tortoise could take naps during a race with you. When trying to do anything that requires significant speed, like running, piloting, getting out of the way, or making rolls for Defense and Initiative, subtract your Slow dice.</p>
+            </div>
+        </div>
+        <div id="soft-spot" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Soft-Spot</h3>
+                <p class="item-text">There is something in this world that you cannot help but enjoy far too much. This could be anything: gardening, motorcycles, dessert, or even stuffed animals. At Level 1, you may be partial to your soft spot, but you won&#39;t intentionally put yourself in harm&#39;s way for it. At Level 2, you are heavily influenced by your soft spot and may be bribed into poor decisions or coaxed into dangerous situations with it. At Level 3, you cannot resist your soft spot, making it very easy to take advantage of you. You will ignore obvious dangers and put yourself at risk before allowing it to go to waste, letting it escape your possession, or jeopardizing its existence in any way.</p>
+            </div>
+        </div>
+        <div id="stubborn" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Stubborn</h3>
+                <p class="item-text">You&#39;re not an unreasonable person—at least, not until someone disagrees with you. You hold steadfast to your ideals and take offense to anyone trying to convince you that these ideals, or your actions based on them, are wrong. At Level 1, you are not beyond the realm of reason. If someone can provide a sufficient argument, you may be willing to back down or modify your train of thought. At Level 2, you are very stubborn and will keep to your mindset unless provided with an incredibly blunt and forceful reason to change your mind. However, at Level 3, almost nothing will change your mind. If you believe something, you will likely believe it until the end of time, even if your stubbornness will cause harm to yourself and others.</p>
+            </div>
+        </div>
+        <div id="trigger" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Trigger</h3>
+                <p class="item-text">One of your Abilities requires a special trigger to become functional. This trigger might be an emotion, a specific event, a potion, or even a can of spinach. Once this trigger has been set off, you may use your Ability until the trigger is gone or until the effect fades, whichever is most appropriate. Your Level in Trigger affects its rarity, with Level 1 being fairly accessible, Level 2 being hard to come by, and Level 3 being exceedingly rare.</p>
+            </div>
+        </div>
+        <div id="unlucky" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Vigorous</h3>
+                <p class="item-text">Some people have all the luck. No really, they must have all of it, because you don&#39;t have a lick. Whether by a family curse, karma, or just a case of bad luck, there&#39;s something about you that causes the world&#39;s misfortunes to gravitate in your direction. At Level 1, bad things happen often enough that you may be seen as accident-prone or unlucky, but it&#39;s never too serious. While at Level 2, your bad luck is exceptional. You always pick the short straw, get the short end of the stick, or otherwise find yourself short-changed in any situation. At Level 3, your life is a ceaseless series of misfortunes that can jeopardize your well-being. Being a guinea pig, trap tester, human shield, or in some other dangerous occupation is a regular occurrence for you.</p>
+            </div>
+        </div>
+        <div id="vulnerability" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Vulnerability</h3>
+                <p class="item-text">Your body is especially vulnerable to some power, a specific source of harm (like electricity or magic), or attacks directed at a weak point. At Level 1, for every two points of Damage you receive by this means, add one. At Level 2, receive an additional point for every point of Damage. At Level 3, receive two additional points for each point of Damage. For other Abilities that do not cause Damage, decrease your roll to resist its influence by your Level in <em>Vulnerability</em>.</p>
+            </div>
+        </div>
+        <div id="wanted" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Wanted</h3>
+                <p class="item-text">Wanted alive, or maybe even dead! You have acquired the ire—or at least interest—of another person or organization. They are actively pursuing you, and you are actively avoiding them. At Level 1, your hunter doesn&#39;t intend to do you any harm, isn&#39;t very persistent in the search, or isn&#39;t powerful enough to carry out their threats when they find you. At Level 2, the hunter wants to give you a little payback, take something from you, or is very capable of getting what they want. At Level 3, the hunter wants you severely punished, possibly even killed, or wants to take something of incredible significance from you and will do anything to get it. Not only might they be very capable of doing so, they could have resources and powers that greatly exceed your own!</p>
+            </div>
+        </div>
+        <div id="weak" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Weak</h3>
+                <p class="item-text">You have the muscle tone of a cabbage leaf. You find it hard to lift heavy objects, create significant force, or do anything that involves feats of strength. Subtract your Weak dice any time you intend to use your muscle power. Your Level in Weak also subtracts from your Damage Multiplier when attacking bare-handed, with melee weapons, or when otherwise applying your strength to an attack. Should your Damage Multiplier be reduced below 1, reduce it to ½ instead.</p>
+            </div>
+        </div>
+        <div id="weak-willed" class="modal">
+            <div class="flex-wrapper">
+                <button class="close-button">+</button>
+                <h3 class="item-name">Weak-Willed</h3>
+                <p class="item-text">You find it difficult to resist temptation or withstand pain, and you easily fall under the influence of others. At Level 1, though unreliable under fire, you can take a stand when something is vitally important to you—at least for a little while. At Level 2, you submit easily, and only dear causes will inspire you to resist. At Level 3, you are a slave to temptation and the whim of others. Any hardship will immediately break your spirit, and you&#39;ll succumb to defeat or any demands made of you. Whenever the fortitude of your will is at stake, subtract your Weak-Willed dice.</p>
+            </div>
+        </div>
+
+        
+    </main>
+    <footer>
+        <a href="../../.." class="to-home">To the home page</a>
+        <a href="#TOP" class="to-top">Back to the top</a>
+    </footer>
+</body>
+</html>
