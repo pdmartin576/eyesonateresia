@@ -98,6 +98,7 @@ li {
 
 .item-text {
     text-align: center;
+    font-size: 1em;
 }
 
 .close-button {
@@ -117,7 +118,7 @@ li {
 }
 
 hr {
-    margin-bottom: 4em;
+    margin-bottom: 3em;
 }
 footer {
     position: fixed;
@@ -150,5 +151,12 @@ footer {
         top: 0;
         transform: translate(0, 0);
         width: 100%;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+    .item {
+        font-size: 1.25em;
     }
 }

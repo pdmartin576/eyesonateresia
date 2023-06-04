@@ -26,8 +26,14 @@ $('#menu-toggle').click(function(){
     { name: 'pantheon', anchorLink: 'pages/abilities/index.html#pantheon', secret: false},
     { name: 'magnava', anchorLink: '#', secret: false},
     { name: 'porsculla', anchorLink: '#', secret: false},
-    { name: 'eden', anchorLink: 'data/cache/index.html', secret: true},
-    { name: 'need', anchorLink: '#', secret: true}
+    { name: 'tovarich', anchorLink: '#', secret: false},
+    { name: 'kasparak', anchorLink: '#', secret: false},
+    { name: 'loravia', anchorLink: '#', secret: false},
+    { name: 'hevesta', anchorLink: '#', secret: false},
+    { name: 'vospol', anchorLink: '#', secret: false},
+    { name: 'optera', anchorLink: '#', secret: false},
+    { name: 'helavos', anchorLink: '#', secret: false},
+    { name: 'eden', anchorLink: 'data/cache/index.html', secret: true}
 ]
 
 const searchInput = document.querySelector('.input')

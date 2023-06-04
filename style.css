@@ -45,7 +45,7 @@ header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -73,6 +73,20 @@ footer {
 }
 
 @media (max-width: 40rem) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .interact-container {
+    display: flex;
+  }
+
+  .search-bar, .menu-container {
+    flex: 1;
+    padding: 0.1em;
+  }
+
   #menu {
     display: flex;
     position: fixed;
