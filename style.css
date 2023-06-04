@@ -20,15 +20,20 @@ body {
 .vocab {
   color: #BC9EC1;
 }
-.threat {
+
+.threat, .hide a:hover {
   color: #990D35;
 }
 
-header, h2 {
+.hide, .hide a {
+  color: #283A18;
+}
+
+h2 {
   text-align: center;
 }
 
-header a {
+header a, .result-item a {
   color: #BC6C25;
 }
 
@@ -36,8 +41,12 @@ a:hover {
   color: #DDA15E;
 }
 
-.wip {
-  color: #990D35;  
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 main {
@@ -47,6 +56,10 @@ main {
   max-width: 60rem;
   line-height: 1.6;
   font-size: 1.1em;
+}
+
+.results-list {
+  padding-bottom: 0.25em;
 }
 
 hr {
@@ -65,10 +78,10 @@ footer {
     position: fixed;
     background-color: #606C38;
     left: 0;
-    /* top: 0; */
     right: 0;
-    bottom: 0;
+    top: 0;
     flex-direction: column;
+    text-align: center;
     justify-content: space-between;
     gap: 0;
     line-height: 1.5;
