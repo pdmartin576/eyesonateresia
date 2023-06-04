@@ -88,6 +88,15 @@ footer {
     flex-wrap: nowrap;
   }
 
+  .results-list {
+    list-style-position: inside;
+    text-align: center;
+  }
+
+  .results-list li {
+    margin-left: 0 auto;
+  }
+
   #menu {
     display: flex;
     position: fixed;
