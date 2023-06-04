@@ -22,10 +22,12 @@ $('#menu-toggle').click(function(){
   });
   
   const search = [
-    { name: 'abilities', anchorLink: 'abilities/index.html', secret: false},
-    { name: 'pantheon', anchorLink: '#', secret: false},
-    { name: 'why', anchorLink: '#', secret: false},
-    { name: 'eden', anchorLink: '#', secret: true}
+    { name: 'abilities', anchorLink: 'pages/abilities/index.html', secret: false},
+    { name: 'pantheon', anchorLink: 'pages/abilities/index.html#pantheon', secret: false},
+    { name: 'magnava', anchorLink: '#', secret: false},
+    { name: 'porsculla', anchorLink: '#', secret: false},
+    { name: 'eden', anchorLink: 'data/cache/index.html', secret: true},
+    { name: 'need', anchorLink: '#', secret: true}
 ]
 
 const searchInput = document.querySelector('.input')
