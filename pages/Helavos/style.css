@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+/* color palette used: https://coolors.co/palette/606c38-283618-fefae0-dda15e-bc6c25 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 80rem;
+    margin: 0 auto;
+    font-family: 'Castoro', serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #283618;
+    color: #fefae0;
+}
+
+header, footer {
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.displace {
+    position: relative;
+    top: 2px;
+  }
+
+.gallery {
+    display: grid;
+    grid-gap: 5px;
+    padding: 5px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    background-color: #DDA15E;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    /* display: block; */
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.long {
+    grid-row: span 2;
+    aspect-ratio: 1/2;
+    display: block;
+}
+
+footer {
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5em;
+    background-color: #A09CB0;
+    padding: 0.25em;
+}
+.to-home, .to-top {
+    color: #FEFAE0;
+}

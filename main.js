@@ -35,6 +35,7 @@ $('#menu-toggle').click(function(){
     { name: 'helavos', anchorLink: '#', secret: false},
     { name: 'ancient history', anchorLink: '#', secret: false},
     { name: 'modern history', anchorLink: '#', secret: false},
+    { name: 'nas botal', anchorLink: '#', secret: false},
     { name: 'eden', anchorLink: 'data/cache/index.html', secret: true}
     
 ]

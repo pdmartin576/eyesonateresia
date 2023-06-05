@@ -131,11 +131,7 @@ footer {
     background-color: #A09CB0;
     padding: 0.25em;
 }
-.to-home {
-    color: #FEFAE0;
-}
-.to-top {
-    text-align: right;
+.to-home, .to-top {
     color: #FEFAE0;
 }
 
