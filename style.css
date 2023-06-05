@@ -27,6 +27,7 @@ body {
 
 .hide, .hide a {
   color: #283618;
+  margin-bottom: -1em;
 }
 
 h2 {
@@ -65,6 +66,11 @@ main {
 hr {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
+}
+
+.displace {
+  position: relative;
+  top: 2px;
 }
 
 footer {

@@ -22,8 +22,8 @@ $('#menu-toggle').click(function(){
   });
   
   const search = [
-    { name: 'abilities', anchorLink: 'pages/abilities/index.html', secret: false},
-    { name: 'pantheon', anchorLink: 'pages/abilities/index.html#pantheon', secret: false},
+    { name: 'abilities', anchorLink: 'pages/character/index.html', secret: false},
+    { name: 'pantheon', anchorLink: 'pages/character/index.html#pantheon', secret: false},
     { name: 'magnava', anchorLink: '#', secret: false},
     { name: 'porsculla', anchorLink: '#', secret: false},
     { name: 'tovarich', anchorLink: '#', secret: false},
@@ -33,7 +33,10 @@ $('#menu-toggle').click(function(){
     { name: 'vospol', anchorLink: '#', secret: false},
     { name: 'optera', anchorLink: '#', secret: false},
     { name: 'helavos', anchorLink: '#', secret: false},
+    { name: 'ancient history', anchorLink: '#', secret: false},
+    { name: 'modern history', anchorLink: '#', secret: false},
     { name: 'eden', anchorLink: 'data/cache/index.html', secret: true}
+    
 ]
 
 const searchInput = document.querySelector('.input')

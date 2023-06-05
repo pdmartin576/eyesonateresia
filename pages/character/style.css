@@ -139,6 +139,11 @@ footer {
     color: #FEFAE0;
 }
 
+.displace {
+    position: relative;
+    top: 2px;
+}
+
 @media (max-width: 40rem) {
     .list-container {
         max-width: 100%;
