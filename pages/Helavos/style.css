@@ -30,7 +30,11 @@ main {
 .displace {
     position: relative;
     top: 2px;
-  }
+}
+
+.hide {
+    color: #283618;
+}
 
 .gallery {
     display: grid;

@@ -57,6 +57,10 @@ li {
     padding: 0.5em;
 }
 
+.hide {
+    color: #283618;
+}
+
 .item {
     font-size: 1.5rem;
     color: #BC6C25;
