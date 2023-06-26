@@ -45,9 +45,9 @@ main {
     flex-flow: row wrap;
 }
 
-.weakness-list {
+/* .weakness-list {
     text-align: right;
-}
+} */
 
 h2 {
     text-align: center;
@@ -104,7 +104,7 @@ li {
 }
 
 .item-text {
-    text-align: center;
+    /* text-align: center; */
     font-size: 1em;
 }
 
@@ -144,7 +144,7 @@ footer {
 
 .displace {
     position: relative;
-    top: 2px;
+    top: 5px;
 }
 
 @media (max-width: 40rem) {
